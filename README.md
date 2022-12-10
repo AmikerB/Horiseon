@@ -1,4 +1,30 @@
-# 01 HTML CSS Git: Code Refactor
+# Horiseon Social Solutions Services
+
+## Table of Contents
+
+[Installation](#Installation)
+[Usage](#usage)
+[Credits](#credits)
+[License](#license)
+
+## Installation
+
+N/A
+
+## Usage
+
+Webpage for a Horiseon Social Solutions Services showcasing their services. Webpage features their services listed along the header with clickable wording taking the user to the coresponding paragraph which explains the service in depth.
+
+## Credits 
+
+Link to starter code: https://github.com/skills-bootcamp/frontend-dev/tree/main/week1/day4/challenge
+
+## License 
+
+
+
+
+
 
 ## Your Task
  
@@ -22,8 +48,7 @@ Are you ready to jump in? Here are this week's challenge requirements:
 
 ```
 AS A marketing agency
-I WANT a codebase that follows accessibility standards
-SO THAT our own site is optimized for search engines
+I want a codebase that follows accessibility standards so that our own site is optimized for search engines
 ```
 
 ### Acceptance Criteria
