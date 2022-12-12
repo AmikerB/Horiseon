@@ -1,12 +1,5 @@
 # Horiseon Social Solutions Services
 
-## Table of Contents
-
-[Installation](#Installation)
-[Usage](#usage)
-[Credits](#credits)
-[License](#license)
-
 ## Installation
 
 N/A
