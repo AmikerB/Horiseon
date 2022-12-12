@@ -9,22 +9,27 @@ body {
 }
 
 .header {
+    /*header colour*/
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
+
 .header h1 {
+    /* main heading*/
     display: inline-block;
     font-size: 48px;
 }
 
 .header h1 .seo {
     color: #d9dcd6;
+    /*colour of "seo" within main header*/
 }
 
 .header div {
+    /*headings along top of webpage*/
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -51,6 +56,7 @@ p {
 }
 
 .hero {
+    /*marketing meeting image*/
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -60,22 +66,26 @@ p {
 }
 
 .float-left {
+    /*images on left of main paragraph*/
     float: left;
     margin-right: 25px;
 }
 
 .float-right {
+    /*image on right of main paragraph*/
     float: right;
     margin-left: 25px;
 }
 
 .content {
+    /*paragraphs under headings*/
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
 .benefits {
+    /*symbols on right of webpage*/
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -102,39 +112,45 @@ p {
 }
 
 .benefit-lead h3 {
+    /*lead generation header*/
     margin-bottom: 10px;
     text-align: center;
 }
 
 .benefit-brand h3 {
+    /*brand awareness header*/
     margin-bottom: 10px;
     text-align: center;
 }
 
 .benefit-cost h3 {
+    /*cost management header*/
     margin-bottom: 10px;
     text-align: center;
 }
 
 .benefit-lead img {
+    /*lead generation image*/
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
 .benefit-brand img {
-    display: block;
+    /*brand awareness image*/
     margin: 10px auto;
     max-width: 150px;
 }
 
 .benefit-cost img {
+    /*cost management image*/
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
 .search-engine-optimization {
+    /*search engine optimization paragraph*/
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -144,6 +160,7 @@ p {
 }
 
 .online-reputation-management {
+    /*online reputation management paragraph*/
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -153,6 +170,7 @@ p {
 }
 
 .social-media-marketing {
+    /*social media marketing paragraph*/
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
