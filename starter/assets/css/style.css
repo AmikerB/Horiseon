@@ -1,3 +1,5 @@
+/*---------box model of webpage--------*/
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,28 +10,28 @@ body {
     background-color: #d9dcd6;
 }
 
+/*--------header format--------*/
+
 .header {
-    /*header colour*/
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-
 .header h1 {
-    /* main heading*/
     display: inline-block;
     font-size: 48px;
 }
 
+/*colour of "seo" within main header*/
 .header h1 .seo {
     color: #d9dcd6;
-    /*colour of "seo" within main header*/
+
 }
 
+/*subheadings along top of webpage*/
 .header div {
-    /*headings along top of webpage*/
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -46,6 +48,18 @@ body {
     margin-left: 25px;
 }
 
+/*marketing meeting image*/
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/*----------format for main body of webpage--------*/
+
 a {
     color: #ffffff;
     text-decoration: none;
@@ -55,122 +69,20 @@ p {
     font-size: 16px;
 }
 
-.hero {
-    /*marketing meeting image*/
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
-}
-
-.float-left {
-    /*images on left of main paragraph*/
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    /*image on right of main paragraph*/
-    float: right;
-    margin-left: 25px;
-}
-
+/*blocks containing subheadings and paragraphs*/
 .content {
-    /*paragraphs under headings*/
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.benefits {
-    /*symbols on right of webpage*/
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
-    /*lead generation header*/
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
-    /*brand awareness header*/
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    /*cost management header*/
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
-    /*lead generation image*/
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    /*brand awareness image*/
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    /*cost management image*/
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
+/*search engine optimization paragraph*/
 .search-engine-optimization {
-    /*search engine optimization paragraph*/
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    /*online reputation management paragraph*/
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    /*social media marketing paragraph*/
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -183,22 +95,23 @@ p {
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
+}
+
+/*online reputation management paragraph*/
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.online-reputation-management img {
+    max-height: 200px;
 }
 
 .social-media-marketing h2 {
@@ -206,6 +119,94 @@ p {
     font-size: 36px;
 }
 
+/*social media marketing paragraph*/
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+/*images on left of main paragraphs*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/*image on right of main paragraphs*/
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/*----------format for paragraphs along right of webpage------------*/
+
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/*--------footer--------*/
 .footer {
     padding: 30px;
     clear: both;
