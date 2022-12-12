@@ -1,6 +1,6 @@
 # Horiseon Social Solutions Service
 
-Webpage for [Horiseon Social Solutions Services](link) showcasing their services. Webpage was already set up, code modified and additional code added to make the webpage more accessibile as well as bug fixes and organised.
+Webpage for [Horiseon Social Solutions Services](https://amikerb.github.io/Horiseon/) showcasing their services. Webpage was already set up, code modified and additional code added to make the webpage more accessibile as well as bug fixes and organised.
 
 ## Installation
 
